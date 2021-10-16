@@ -26,8 +26,8 @@ background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+
 
 .navigation {
     position: absolute;
-    bottom: 16px;
-    left: 50%;
+    bottom: 110px;
+    left: 92%;
     transform: translateX(-50%);
     display: flex;
 }
@@ -100,7 +100,7 @@ input[name="r"] {
     margin-top: 50px;
     color: #fff;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-weight: 200;
 }
@@ -128,6 +128,17 @@ input[name="r"] {
 }
 
 @media (max-width: 900px) {
+    .navigation {
+        position: absolute;
+        bottom: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+    }
+    .quote {
+        text-align: center;
+
+    }
     .slide {
         max-width: 600px;
         max-height: 400px;
